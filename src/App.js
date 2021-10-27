@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo />
+      <Todo text="Go to the Grocery" />
+      <Todo text="Make Lunch" />
+      <Todo text="Learn React" />
     </div>
   );
 }
